@@ -1,0 +1,375 @@
+/* css reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li,
+ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+
+/*--在此处添加不具有font-family继承性的标签--*/
+body, button, input, select, textarea, table, th, td {
+    font-family: "Microsoft Yahei", arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Link */
+a:link {
+    color: #4e4e4e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #4e4e4e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #1e94da;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:active {
+    color: #4e4e4e;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button, input, select {
+    border: none;
+    outline: none;
+}
+
+[hidefocus] {
+    outline: medium none;
+}
+
+/*选择按钮 input */
+.tabBtnContainer{
+    margin-top: 17px;
+}
+
+.tabBtnContainer input {
+    margin: 0 -3px 0 0;
+    padding: 4px 17px 4px 16px;
+    background-color: #313438;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    min-width: 82px;
+}
+
+.tabBtnContainer .selectBtn {
+    background: url("../image/tab_select.png") no-repeat;
+    background-color: #53AFE4;
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#2D8BC0), to(#53AFE4));
+}
+
+/*返回上一页按钮*/
+.backToBaseInfo {
+    margin: 18px 18px 0 0;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url("../image/back.png") -0 0;
+}
+
+.backToBaseInfo:hover {
+    background: url("../image/back.png") -30px 0;
+}
+
+.backToBaseInfo:active {
+    background: url("../image/back.png") -60px 0;
+}
+
+.baseInfoTitle {
+    clear: right;
+    overflow: auto;
+    width: 100%;
+}
+
+.baseInfoTitle p {
+    color: #4e4e4e !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+/*有border-bottom的input*/
+input[type="text"], input[type="password"] {
+    font-size: 11px;
+    color: #616060;
+    border-bottom: 1px solid #949799;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+    color: #1e94da;
+    border-color: #1e94da;
+}
+
+input[type="text"]:hover::-moz-placeholder,
+input[type="text"]:hover:-ms-input-placeholder,
+input[type="text"]:hover::-webkit-input-placeholder{
+  color: #1e94da;
+}
+
+span.labeltext {
+    font-size: 12px;
+    color: #4e4e4e !important;
+    margin-right: 19px;
+}
+
+.disabledText {
+    color: #cac9c8;
+}
+
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+
+/*搜索图标*/
+.search {
+    width: 30px;
+    height: 30px;
+    background: url("../image/search1.png") 0 0;
+    cursor: pointer;
+    margin-left: 21px;
+    vertical-align: bottom;
+    position: relative;
+    /*bottom: -2px;*/
+}
+
+.search:hover {
+    background: url("../image/search1.png") -30px 0;
+}
+
+.search:active {
+    background: url("../image/search1.png") -60px 0;
+}
+
+#searchValue, #searchMachineRoom {
+    vertical-align: bottom;
+    width: 133px;
+    line-height: 24px;
+}
+
+/*select*/
+select {
+    font-size: 11px;
+    color: #616060;
+    width: 122px;
+    border-bottom: 1px solid #949799;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+select:hover, select:focus {
+    color: #1e94da;
+    border-bottom: 1px solid #1e94da;
+}
+
+.corpright a {
+    text-decoration: underline;
+    color: #53AFE4;
+}
+
+.prompt {
+    text-align: left;
+    position: relative;
+    width: 330px;
+    margin-top: 75px;
+}
+
+.prompt img, .prompt span {
+    vertical-align: middle;
+}
+
+.prompt img {
+    margin-right: 11px;
+}
+
+.prompt .tips {
+    margin-left: 31px;
+}
+
+.div_choice{
+    padding: 4px 0 10px 0;
+}
+
+
+/******button*****/
+.mo-btn-x {
+    cursor: pointer;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 22px;
+    text-align: center;
+    border: 1px solid #DCDFE1;
+    margin-left: 1px;
+}
+
+.mo-btn-x-left {
+    margin-right: 6px;
+}
+
+.mo-btn-gray {
+    background-color: #EFF2F4;
+    color: #5f5f5f;
+}
+
+.btndisabled {
+    background: #E5E5E5 !important;
+    border-color: #E5E5E5 !important;
+    color: #fff !important;
+    cursor: default;
+}
+
+.mo-btn-gray:hover, .mo-btn-gray.hover {
+    background: url("../image/btn-bg-normal.png") repeat-y 0 0 #69BEF0;
+    border-color: transparent;
+    color: #fff!important;
+}
+
+.mo-btn-gray:active, .mo-btn-gray.active {
+    background: #ffffff;
+    border-color: #007ac0;
+    color: #2E8CC1;
+}
+
+.btn {
+    float: right;
+    margin: 14px 0 10px 0;
+    clear: right;
+}
+
+.btns{
+    float: right;
+    margin: 10px 0;
+}
+
+.noDataTips{
+    margin: 180px 0 0 180px;
+}
+
+/*下拉菜单*/
+
+.pulldown-content
+{
+    font-size: 12px;
+    font-family: "Microsoft Yahei", arial;
+    color: #4e4e4e;
+    float: right;
+    line-height: 22px;
+}
+
+.pulldown-text
+{
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+
+.pulldown-arrow
+{
+    background: url(../image/icons.png) 0 -163px no-repeat;
+    height: 5px;
+    width: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-right: 4px;
+}
+
+.menu-list
+{
+    position: absolute;
+    display: none;
+    z-index: 20000;
+    background-color: #ffffff;
+    border: solid 1px #dadada;
+    border-top:solid 2px #dadada;
+    width: 170px;
+    padding: 15px 0px;
+    margin-top: 2px;
+}
+
+.menu-li
+{
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.menu-li:hover
+{
+    color: #ffffff;
+    background-color: #1e94da;
+}
+
+.menu-li-checkImg
+{
+    background: url(../image/icons.png?t=5.0.2613065861) 0px -184px no-repeat;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    margin-left: 6px;
+    margin-right: 4px;
+    visibility: hidden;
+}
+
+.menu-li:hover .menu-li-checkImg
+{
+    background-position: -10px -184px;
+    background-color:#1e94da;
+}
+
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner{
+    border:none;padding:0;
+}
+
+.PromptImg {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-right: 9px;
+  background-image: url(../image/prompt.png);
+  width: 21px;
+  height: 21px;
+}

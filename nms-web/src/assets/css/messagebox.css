@@ -1,0 +1,71 @@
+.mo-msgbox-content .info {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 75px;
+}
+
+.mo-msgbox-content .btn-wrapper {
+    bottom: 0;
+    padding-top: 21px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.mo-msgbox-content .mo-btn-x {
+    cursor: pointer;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 22px;
+    text-align: center;
+    border: 1px solid #DCDFE1;
+}
+
+.mo-msgbox-content .mo-btn-gray {
+    background-color: #EFF2F4;
+    color: #5F5F5F;
+    text-decoration: none;
+}
+
+.mo-btn-gray:hover, .mo-btn-gray.hover {
+    background: url("../image/btn-bg-normal.png?t=5.0.2613065861") repeat-y 0 0 #69BEF0;
+    border-color: transparent;
+    color: #fff;
+}
+
+.mo-btn-gray:active, .mo-btn-gray.active {
+    /*background: #ffffff;*/
+    border-color: #007ac0;
+    color: #2E8CC1;
+}
+
+.mo-btn-gray.disabled {
+    background: #E5E5E5;
+    border-color: #E5E5E5;
+    color: #fff;
+    cursor: default;
+}
+
+.mo-btn-black:active, .mo-btn-black.active {
+    background-color: #313438;
+    color: #5F5F5F;
+    border-color: #5F5F5F;
+}
+
+.mo-btn-x-left {
+    margin-right: 6px;
+}
+
+.tips-content {
+    text-align: center;
+}
+
+.img_loading {
+    margin-bottom: 15px;
+}

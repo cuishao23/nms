@@ -1,0 +1,197 @@
+
+const terminalUnrepairedWarnings = [
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  },
+  {
+    "deviceE164": "5002340000009",
+    "deviceName": "5002340000009",
+    "deviceType": "SKY X700-4K30",
+    "deviceIP": "192.168.39.210",
+    "domainMoid": "3yd6j5hz1te9aa7z0gqu1kwm",
+    "domainName": "科达用户域",
+    "level": "critical",
+    "description": "注册GK失败",
+    "starttime": "2018/12/20 17:07:53",
+    "resolvetime": ""
+  }
+]
+
+export {terminalUnrepairedWarnings}

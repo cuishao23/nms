@@ -1,0 +1,602 @@
+/*reset*/
+.datagrid-toolbar {
+    background: white;
+}
+
+.toolbar {
+}
+
+.toolbar .search-bar {
+    margin-top: 12px;
+    height: 40px;
+    text-align: left;
+}
+
+.datagrid-toolbar:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.datagrid-toolbar {
+    *zoom: 1;
+}
+
+.datagrid-toolbar .search-bar {
+    margin-top: 16px;
+    height: 40px;
+    text-align: left;
+}
+
+.datagrid-toolbar .operate-bar {
+    height: 40px;
+    margin-top: 12px;
+    text-align: right;
+}
+
+.datagrid-toolbar.inline .search-bar {
+    text-align: left;
+    float: left;
+    width: auto;
+}
+
+.datagrid-toolbar.inline .operate-bar {
+    width: auto;
+    float: right;
+}
+
+.datagrid-toolbar .search-bar .showInput, .toolbar .search-bar .showInput {
+    outline: 0 none;
+    border: none;
+    border-bottom: 1px solid #949799;
+    color: #616060;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    width: 110px;
+    padding: 0px 0;
+    vertical-align: top;
+}
+
+.datagrid-toolbar .search-bar .showInput:hover, .datagrid-toolbar .search-bar .showInput:focus {
+    border-color: #1e94da;
+}
+
+.datagrid-toolbar .search-bar .showInput.active, .toolbar .search-bar .showInput.active {
+    border-color: #1e94da;
+}
+
+.datagrid-toolbar .search-bar .sep {
+    margin-left: 19px;
+}
+
+.datagrid-header .datagrid-cell span {
+    font-size: 12px;
+}
+
+.datagrid-row {
+    height: 21px;
+    margin: 6px 0 10px 0;
+    display: block;
+}
+
+.datagrid-header, .datagrid-td-rownumber {
+    background: white;
+    filter: none;
+}
+
+.datagrid-header, .datagrid-toolbar, .datagrid-pager, .datagrid-footer-inner {
+    border: none;
+}
+
+.pagination-info{
+    display: none;
+}
+
+.datagrid-header {
+    border-top: 1px solid #949799;
+
+}
+
+.datagrid-header td, .datagrid-body td, .datagrid-footer td {
+    border: 0;
+}
+
+.datagrid-header td, .datagrid-header td.datagrid-header-over {
+    background: url("../image/table_head_td.png?t=5.0.0.0_3978328151") no-repeat #fff;
+    color: #8B8B8B;
+    cursor: default;
+}
+
+.datagrid-row-over {
+    background: url("../image/icons.png?t=5.0.0.0_3552141330") 0 -244px no-repeat #5EB9EF;
+    color: white;
+    cursor: default;
+}
+
+.datagrid-header-row{
+    font-size: 11px;
+    color: #8B8B8B;
+    margin: 0 0 0 0;
+    display: block;
+}
+
+.datagrid-row{
+    font-size: 12px;
+    color: #4e4e4e;
+}
+.datagrid-row .datagrid-cell a
+{
+    color: #007ac0;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.datagrid-row .datagrid-cell a.linkDisabled
+{
+    color: #c9c9c9;
+}
+
+.datagrid-body .datagrid-row-checked .datagrid-cell, .datagrid-body .datagrid-row-checked .datagrid-cell a {
+    color: white;
+}
+
+.datagrid-body .datagrid-row-checked.datagrid-row-over .datagrid-cell, .datagrid-body .datagrid-row-checked.datagrid-row-over .datagrid-cell a {
+    color: white;
+}
+
+.datagrid-body .datagrid-row-over .datagrid-cell, .datagrid-body .datagrid-row-over .datagrid-cell a {
+    color: white;
+}
+
+.datagrid-row-checked, .datagrid-row-checked {
+    background: #EFF2F4;
+}
+
+.datagrid-body .datagrid-row-selected.datagrid-row-over .datagrid-cell, .datagrid-body .datagrid-row-selected.datagrid-row-over .datagrid-cell a {
+}
+
+.datagrid-body .datagrid-row-selected .datagrid-cell, .datagrid-body .datagrid-row-selected .datagrid-cell a {
+}
+
+.datagrid-row-selected{
+    color: white;
+}
+
+.datagrid-row-selected {
+    background: #313438;
+}
+
+.datagrid-header td[rowspan="0"] {
+    background-image: none;
+}
+
+.datagrid-header .datagrid-cell {
+    color: #8B8B8B;
+    line-height: 24px;
+    margin: 2px 0 2px 0;
+}
+
+.datagrid-body .datagrid-cell, .datagrid-body .datagrid-cell a {
+
+    text-overflow: ellipsis;
+}
+
+.datagrid-cell-rownumber {
+    color: #8B8B8B;
+}
+
+.datagrid-toolbar, .datagrid-pager {
+    background: none;
+}
+
+.datagrid .datagrid-pager {
+    border: none;
+    height: 35px;
+}
+
+.pagination {
+    zoom: 1;
+    position: fixed;
+    bottom: 32px;
+    right: 128px;
+}
+
+.pagination table {
+    font-size: 12px;
+    float: right;
+    height: 30px
+}
+
+.pagination table td {
+    font-family: Arial;
+}
+
+.pagination .pagination-num {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    width: 22px;
+    padding: 0;
+    color: #666666;
+    line-height: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pagination a.l-btn {
+    border-radius: 0;
+    height: 30px
+}
+
+.pagination a.l-btn-plain {
+    background: 0 0;
+    border: none;
+    padding: 0
+}
+
+.pagination a.l-btn-disabled {
+    opacity: 1;
+    filter: none
+}
+
+.pagination a.l-btn-plain span.l-btn-left {
+    padding-left: 0
+}
+
+.pagination a.l-btn span span.l-btn-text {
+    top: 0;
+    height: 30px
+}
+
+.pagination a.l-btn span span span.l-btn-empty {
+    margin: 0px;
+    width: 21px;
+    height: 20px;
+}
+
+.pagination .l-btn-icon {
+    width: 21px;
+    height: 20px;
+    left: 0px;
+}
+
+.pagination-next, .pagination-prev {
+    background: url(../image/pagination_icons.png?t=5.0.270688469) no-repeat
+}
+
+.pagination-prev {
+    background-position: 0 -20px
+}
+
+.pagination a.l-btn-plain:hover, .pagination a:hover.l-btn-plain:hover {
+    padding: 0
+}
+
+.pagination a:hover.l-btn-plain .pagination-prev {
+    background-position: -42px -20px
+}
+
+.pagination a:active.l-btn-plain .pagination-prev {
+    background-position: -21px -20px
+}
+
+.pagination a.l-btn-disabled .pagination-prev, .pagination a:hover.l-btn-plain-disabled .pagination-prev {
+    background-position: -63px -20px
+}
+
+.pagination-next {
+    background-position: 0 0
+}
+
+.pagination a:hover.l-btn-plain .pagination-next {
+    background-position: -42px 0
+}
+
+.pagination a:active.l-btn-plain .pagination-next {
+    background-position: -21px 0
+}
+
+.pagination a.l-btn-disabled .pagination-next, .pagination a:hover.l-btn-plain-disabled .pagination-next {
+    background-position: -63px 0
+}
+
+.tree-node {
+    margin-bottom: 4px;
+    color: #4E4E4E;
+    height: 20px;
+    line-height: 20px;
+}
+
+.tree-icon.tree-folder, .tree-icon.tree-file {
+    width: 0px;
+}
+
+.tree-icon.icon-empty {
+    width: 0px;
+}
+
+.tree-title {
+    height: 20px;
+    line-height: 20px;
+}
+
+.tree-expanded, .tree-collapsed, .tree-folder, .tree-file, .tree-checkbox, .tree-indent {
+    display: inline-block;
+    height: 18px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 12px;
+}
+
+.datagrid-header-check, .datagrid-cell-check {
+    background: transparent url('../image/icons.png') 0 -169px no-repeat;
+    width: 14px;
+    height: 14px;
+    margin: 1px 4px;
+    *display: inline;
+    *zoom: 1;
+}
+
+.datagrid-header-check:hover, .datagrid-cell-check:hover {
+    background-position: -15px -169px;
+}
+
+.datagrid-header-check.checked {
+    background-position: -30px -169px;
+}
+
+.datagrid-header-check.checked:hover {
+    background-position: -45px -169px;
+}
+
+.datagrid-header-check input, .datagrid-cell-check input {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/*checkbox*/
+.datagrid-header-check input[type="checkbox"] {
+    display: inline-block;
+}
+
+.datagrid-row-over .datagrid-cell-check{
+    background-position: -60px -169px;
+}
+
+.datagrid-row-checked .datagrid-cell-check,.datagrid-row-checked .datagrid-cell-check:hover{
+    background-position: -75px -169px;
+}
+
+.combo {
+    border: 0;
+    border-bottom: 1px solid #949799;
+    position: relative;
+    left: 0;
+    height: 26px;
+}
+
+.combo:hover {
+    border-bottom-color: #1e94da;
+}
+
+.combo-text {
+    color: #616060;
+    font-size: 11px;
+}
+
+.combo:hover .combo-text {
+    color: #1e94da;
+    cursor: text;
+}
+
+.combo-arrow {
+    background: url("../image/select.png?t=5.0.0.0_1579572707") 0 8px no-repeat;
+    opacity: 1;
+    height: 15px;
+    width: 15px !important;
+}
+
+.combo:hover .combo-arrow, .combo-arrow-hover {
+    background-position: -15px 8px;
+    background-color: #fff;
+}
+
+/* for Bug00192128
+.combo.datebox:hover .combo-arrow, .datebox .combo-arrow-hover {
+    background-position: center;
+} */
+
+.panel.combo-p {
+    border: solid 1px #1e94da;
+    margin-top: 2px;
+}
+
+.panel-header, .panel-body {
+    overflow-x: auto;
+    width: 188px!important;
+}
+
+.combobox-item {
+    margin-bottom: 1px;
+    color: #616060;
+    white-space: pre;
+    line-height: 25px;
+    padding:0px 0px 0px 7px;
+    cursor: pointer;
+}
+
+.combobox-item-hover {
+    background-color: #1e94da;
+    color: #fff;
+    cursor: pointer;
+}
+
+.combobox-item-selected {
+    background-color: #1e94da;
+    color: #fff;
+}
+
+.combo-p .tree-node-selected {
+    background: #1e94da;
+}
+
+.combo-p .tree-node-hover {
+    background: #1e94da;
+    color: #fff;
+    cursor: pointer;
+}
+
+.textbox {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    width: 110px !important
+}
+
+.textbox .textbox-text {
+    font-size: 12px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.textbox-focused {
+    border-color: #6b9cde;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.l-btn-left .l-btn-empty {
+    margin: 0 0px;
+    width: 21px;
+}
+
+.l-btn-focus {
+    outline: none;
+}
+
+.switchbutton {
+  text-decoration: none;
+  /*display: inline-block;*/
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background: #2D8BC0;
+  border: 1px solid #2D8BC0;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.switchbutton-inner {
+  display: inline-block;
+  /*overflow: hidden;*/
+  position: relative;
+  top: 0;
+  /*left: -1px;*/
+}
+
+.switchbutton-on,
+.switchbutton-off,
+.switchbutton-handle {
+  /*display: inline-block;*/
+  text-align: center;
+  height: 100%;
+  float: left;
+  font-size: 12px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.switchbutton-on {
+  background: #2D8BC0;
+  color: #FFFFFF;
+}
+.switchbutton-off {
+  background-color: #EFF2F4;
+  color: #D0D0D0;
+}
+
+.switchbutton-handle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: #FFFFFF;
+  color: #404040;
+  border: 1px solid #FFFFFF;
+  -moz-box-shadow: 0 0 0px 0 #bbb;
+  -webkit-box-shadow: 0 0 0px 0 #bbb;
+  box-shadow: 0 0 0px 0 #bbb;
+}
+
+.switchbutton-on,
+.switchbutton-reversed .switchbutton-off {
+  -moz-border-radius: 2px 0 0 2px;
+  -webkit-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+
+.switchbutton-off,
+.switchbutton-reversed .switchbutton-on {
+  -moz-border-radius: 0 2px 2px 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+
+.switchbutton-value {
+  position: absolute;
+  top: 0;
+  left: -5000px;
+}
+
+.switchbutton-disabled {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background: #DCDFE1;
+  border: 1px solid #DCDFE1;
+}
+.switchbutton-disabled .switchbutton-on {
+  background: #E5E5E5;
+  color: #FCFCFC;
+}
+.switchbutton-disabled .switchbutton-handle {
+  background: #EFF2F4;
+  color: #FCFCFC;
+  border: 1px solid #EFF2F4;
+}
+.switchbutton-disabled .switchbutton-off {
+  background: #E5E5E5;
+  color: #FCFCFC;
+}
+
+.switchbutton-disabled,
+.switchbutton-readonly {
+  cursor: default;
+}
+
+.ez-checkbox, .ez-radio{
+    vertical-align: middle;
+}
+
+.datebox .combo-arrow {
+    background-image: url('../image/datebox.png');
+    background-position: -3px 2px;
+}
+
+.datebox input:hover {
+    background-position: 17px 2px;
+}
+
+.combo.datebox:hover .combo-arrow {
+    background-position: -43px 2px;
+}
+
+.datagrid-header td[field="Nu"], .datagrid-header td[Field='num'], .datagrid-header td[Field='nu'] {
+    background: #FFFFFF;
+}

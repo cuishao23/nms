@@ -1,0 +1,36 @@
+from django.conf.urls import url
+from .views import *
+
+urlpatterns = [
+    url(r'^history/p2pmeeting/$', HistoryP2pMeeting.as_view()),
+    url(r'^history/p2pmeetingdetail/$', HistoryP2pMeetingDetail.as_view()),
+    url(r'^history/p2pmeetingcallee/$', HistoryP2pMeetingCallee.as_view()),
+    url(r'^history/p2pmeetingvideo/$', HistoryP2pMeetingVideo.as_view()),
+    url(r'^history/multimeeting/$', HistoryMultiMeeting.as_view()),
+    url(r'^history/multimeetingdetail/$', HistoryMultiMeetingDetail.as_view()),
+    url(r'^history/softhardterminal/$', HistorySoftHardTerminal.as_view()),
+    url(r'^history/softhardterminaldetail/$', HistorySoftHardTerminalDetail.as_view()),
+    url(r'^history/terminalleavereason/$', HistoryTerminalLeaveReason.as_view()),
+    url(r'^history/terminalmeetingscore/$', HistoryTerminalMeetingScore.as_view()),
+    url(r'^history/phoneterminal/$', HistoryPhoneTerminal.as_view()),
+    url(r'^history/cascademeeting/$', HistoryCascadeMeeting.as_view()),
+    url(r'^history/ipterminal/$', HistoryIPTerminal.as_view()),
+    url(r'^history/liveinfo/$', HistoryLiveInfo.as_view()),
+    url(r'^history/liveuserinfo/$', HistoryLiveUserInfo.as_view()),
+    url(r'^history/meetingdcsinfo/$', HistoryMeetingDcsInfo.as_view()),
+    url(r'^history/dcsmodechangeinfo/$', HistoryDcsModeChangeInfo.as_view()),
+    url(r'^history/dcsmeetingterminal/$', HistoryDcsMeetingTerminal.as_view()),
+    url(r'^realtime/p2pmeeting/$', RealTimeP2pMeeting.as_view()),
+    url(r'^realtime/terminaldetail/$', RealTimeTerminalDetail.as_view()),
+    url(r'^realtime/terminalvideodetail/$', RealTimeTerminalVideoDetail.as_view()),
+    url(r'^realtime/multimeeting/$', RealTimeMultiMeeting.as_view()),
+    url(r'^realtime/multimeetingdetail/$', RealTimeMultiMeetingDetail.as_view()),
+    url(r'^realtime/softhardterminal/$', RealTimeSoftHardTerminal.as_view()),
+    url(r'^realtime/terminalleavereason/$', RealTimeTerminalLeaveReason.as_view()),
+    url(r'^realtime/terminalmeetingscore/$', RealTimeTerminalMeetingScore.as_view()),
+    url(r'^realtime/phoneterminal/$', RealTimePhoneTerminal.as_view()),
+    url(r'^realtime/cascademeeting/$', RealTimeCascadeMeeting.as_view()),
+    url(r'^realtime/ipterminal/$', RealTimeIPTerminal.as_view()),
+    url(r'^realtime/liveinfo/$', RealTimeLiveInfo.as_view()),
+    url(r'^realtime/dcsinfo/$', RealTimeDcsInfo.as_view())
+]
